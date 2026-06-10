@@ -1,0 +1,141 @@
+/* ==========================================================================
+   HOLLOW CREEK FARM - BRAND CUSTOM ENVIRONMENT STYLE SHEET
+   ========================================================================== */
+
+:root {
+  /* Primary brand colors from the Official Brand Kit */
+  --color-forest:     #2C5F2E;   /* Dark green — headings, nav, primary buttons */
+  --color-gold:       #D4A017;   /* Warm gold — accents, borders, icon highlights */
+  --color-barn-red:   #8B2500;   /* Deep red — barn accent, secondary CTA */
+
+  /* Neutral / background tones */
+  --color-cream:      #FAF3E0;   /* Off-white — light section backgrounds */
+  --color-parchment:  #EDE0C4;   /* Warm tan — card backgrounds, borders */
+  --color-earth:      #4A3728;   /* Dark brown — body text, dark accents */
+
+  /* Supporting greens */
+  --color-meadow:     #5A7A3A;   /* Mid green — hover states, secondary elements */
+  --color-sage:       #8FAF7E;   /* Light green — badges, muted tags */
+
+  /* Typographic Font stacks */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'Lato', Arial, sans-serif;
+
+  /* Global UI Transitions */
+  --transition-speed: 0.25s;
+}
+
+/* --- BASE TYPOGRAPHY OVERRIDES --- */
+body {
+    font-family: var(--font-body);
+    color: var(--color-earth);
+    background-color: var(--color-cream);
+    line-height: 1.8;
+}
+
+h1, h2, h3, .display-font {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--color-forest);
+}
+
+h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
+h2 { font-size: clamp(1.5rem, 3vw, 2.2rem); }
+h3 { font-size: 1.3rem; color: var(--color-earth); }
+p  { font-size: 1rem; }
+
+.italic-tagline {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* --- BACKDROP RESTRUCTURING CONTEXTS --- */
+.bg-cream { background-color: var(--color-cream); }
+.bg-parchment { background-color: var(--color-parchment); }
+
+/* --- NAVIGATION EXTENSION ARCHITECTURE --- */
+.navbar {
+    background-color: var(--color-cream) !important;
+    border-bottom: 3px solid var(--color-parchment);
+    box-shadow: 0 2px 10px rgba(74, 55, 40, 0.05);
+}
+.nav-link {
+    color: var(--color-earth) !important;
+    font-weight: 700;
+    padding: 0.5rem 1rem !important;
+    transition: color var(--transition-speed) ease;
+}
+.nav-link:hover, .nav-link.active {
+    color: var(--color-forest) !important;
+}
+
+/* --- HERO CORE ENVIRONMENT WRAPPER --- */
+.hero-section {
+    background: linear-gradient(rgba(44, 95, 46, 0.2), rgba(74, 55, 40, 0.4)), 
+                url('assets/Hero Imgs/hero-barn-creek-sunflowers-sunrise.png') center/cover no-repeat;
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid var(--color-gold);
+}
+
+/* --- BRAND PATTERN UI COMPONENT SETS --- */
+.farm-card {
+    background-color: #ffffff;
+    border: 1px solid var(--color-parchment);
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+.farm-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(74, 55, 40, 0.12);
+}
+
+/* WCAG AA Certified High-Contrast Interactive Form Controls */
+.btn-primary-custom {
+    background-color: var(--color-forest);
+    color: var(--color-cream);
+    font-weight: 700;
+    border: none;
+    padding: 10px 24px;
+    transition: all var(--transition-speed) ease;
+}
+.btn-primary-custom:hover {
+    background-color: var(--color-meadow);
+    color: var(--color-cream);
+    transform: translateY(-1px);
+}
+
+.btn-secondary-custom {
+    background-color: var(--color-barn-red);
+    color: var(--color-cream);
+    font-weight: 700;
+    border: none;
+    padding: 10px 24px;
+    transition: all var(--transition-speed) ease;
+}
+.btn-secondary-custom:hover {
+    background-color: var(--color-earth);
+    color: var(--color-cream);
+}
+
+/* Interactive Filter Controls Styling */
+.filter-btn {
+    border: 2px solid var(--color-forest);
+    color: var(--color-forest);
+    font-weight: 700;
+    background-color: transparent;
+    transition: all var(--transition-speed) ease;
+}
+.filter-btn:hover, .filter-btn.active {
+    background-color: var(--color-forest) !important;
+    color: var(--color-cream) !important;
+}
+
+/* Form Input Control Accent Overrides */
+.form-control:focus {
+    border-color: var(--color-forest);
+    box-shadow: 0 0 0 0.25rem rgba(44, 95, 46, 0.25);
+}
