@@ -6,28 +6,28 @@ const farmEvents = [
         name: "Sunflower U-Pick",
         season: "spring",
         description: "Walk the rows and cut your own bouquet.",
-        image: "sunflowerupick.jpg",
+        image: "Total images/sunflowerupick.jpg",
         dates: "Mid-May through June, late July bloom"
     },
     {
         name: "Strawberry Picking",
         season: "spring",
         description: "Pick fresh strawberries during U-Pick weekends.",
-        image: "strawberryimagepicking.jpg",
+        image: "Total images/strawberryimagepicking.jpg",
         dates: "April through June weekends"
     },
     {
         name: "Blueberry Picking",
         season: "summer",
         description: "Visit the berry fields and pick fresh blueberries.",
-        image: "blueberrypickingimage.jpg",
+        image: "Total images/blueberrypickingimage.jpg",
         dates: "July through early August"
     },
     {
         name: "Baby Animal Visits",
         season: "spring",
         description: "Meet chicks, ducklings, and baby goats in the barn.",
-        image: "assets/Events/event-baby-animals-goats-chicks-spring.png",
+        image: "Total images/babyanimalvisit.png",
         dates: "April through June"
     },
     {
