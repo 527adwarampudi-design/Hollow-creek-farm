@@ -34,7 +34,7 @@ const farmEvents = [
         name: "Corn Maze",
         season: "fall",
         description: "5-acre maze with a new design each year.",
-        image: "Total images/cornmaze.jpg",
+        image: "Total images/ corn maze.png",
         dates: "Labor Day through November"
     },
     {
