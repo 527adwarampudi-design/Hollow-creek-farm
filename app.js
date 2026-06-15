@@ -34,56 +34,56 @@ const farmEvents = [
         name: "Corn Maze",
         season: "fall",
         description: "5-acre maze with a new design each year.",
-        image: "Total images/ corn maze.png",
+        image: "Total images/cornmaze.png",
         dates: "Labor Day through November"
     },
     {
         name: "Pumpkin Patch",
         season: "fall",
         description: "Choose from more than 20 pumpkin varieties.",
-        image: "assets/Events/event-pumpkin-patch-father-son-wagon.png",
+        image: "Total images/pumpkinpatch.png",
         dates: "September through November"
     },
     {
         name: "Hayrides",
         season: "fall",
         description: "Tractor-pulled wagon rides around the farm.",
-        image: "assets/Events/event-hayride-tractor-wagon-sunset.png",
+        image: "Total images/hayrides.png",
         dates: "Weekends through October"
     },
     {
         name: "Apple Cider Pressing",
         season: "fall",
         description: "Watch fresh cider made and take a jug home.",
-        image: "assets/Events/event-apple-cider-pressing-family.png",
+        image: "Total images/applesqeueezse.png",
         dates: "September through November"
     },
     {
         name: "Fall Harvest Festival",
         season: "fall",
         description: "Food vendors, live music, crafts, and farm fun.",
-        image: "assets/Events/event-fall-harvest-festival-crowds.png",
+        image: "Total images/fallharvest.png",
         dates: "Last two weekends of October"
     },
     {
         name: "Farm-to-Table Dinner",
         season: "summer",
         description: "Ticketed dinner in the covered pavilion.",
-        image: "assets/Events/event-farm-to-table-dinner-string-lights.png",
+        image: "Total images/farmtotable.png",
         dates: "Select Saturday evenings"
     },
     {
         name: "Holiday Market",
         season: "winter",
         description: "Artisan goods, farm gifts, wreaths, and more.",
-        image: "assets/Events/event-holiday-market-barn-lights-winter.png",
+        image: "Total images/Holiday market.png",
         dates: "First three weekends of December"
     },
     {
         name: "Christmas Trees",
         season: "winter",
         description: "Pre-cut and choose-and-cut trees available.",
-        image: "assets/Events/event-christmas-tree-farm-choose-cut.png",
+        image: "Total images/christmastree.png",
         dates: "December"
     }
 ];
@@ -97,7 +97,7 @@ const farmProducts = [
         category: "Dairy & Eggs",
         displayNote: "From the 200-hen flock",
         description: "Farm-fresh eggs available year-round.",
-        image: "assets/productPhotos/product-fresh-eggs-dozen-carton.png",
+        image: "Total images/Eggs.png",
         price: "Market Price"
     },
     {
@@ -105,7 +105,7 @@ const farmProducts = [
         category: "Pantry",
         displayNote: "From farm hives",
         description: "Local raw honey from three on-site hives.",
-        image: "assets/productPhotos/product-raw-honey-jar.png",
+        image: "Total images/rawhoney.png",
         price: "$8.00"
     },
     {
@@ -113,7 +113,7 @@ const farmProducts = [
         category: "Pantry",
         displayNote: "Made in-house",
         description: "Preserves made with seasonal berries.",
-        image: "assets/productPhotos/product-strawberry-preserves-jar.png",
+        image: "Total images/strawberry.png",
         price: "$6.50"
     },
     {
@@ -121,7 +121,7 @@ const farmProducts = [
         category: "Pantry",
         displayNote: "Made in-house",
         description: "Small-batch preserves from peak berry season.",
-        image: "assets/productPhotos/product-blueberry-preserves-jar.png",
+        image: "Total images/Blueberry.png",
         price: "$6.50"
     },
     {
@@ -129,7 +129,7 @@ const farmProducts = [
         category: "Seasonal",
         displayNote: "Available in fall",
         description: "Fresh cider pressed on-site, sold by the jug.",
-        image: "assets/productPhotos/product-fresh-apple-cider-jug.png",
+        image: "Total images/apple.png",
         price: "$7.00"
     },
     {
@@ -137,7 +137,7 @@ const farmProducts = [
         category: "Baked Goods",
         displayNote: "Weekends only",
         description: "Fresh-baked bread available on weekends.",
-        image: "assets/productPhotos/product-sourdough-bread-loaf.png",
+        image: "Total images/bread.png",
         price: "$5.50"
     },
     {
@@ -145,7 +145,7 @@ const farmProducts = [
         category: "Baked Goods",
         displayNote: "Weekends only",
         description: "Farm-made pie using seasonal apples.",
-        image: "assets/productPhotos/product-apple-pie-bakery.png",
+        image: "Total images/Applepie.png",
         price: "$14.00"
     },
     {
@@ -153,7 +153,7 @@ const farmProducts = [
         category: "Produce",
         displayNote: "Changes by season",
         description: "A rotating selection from the farm fields.",
-        image: "assets/productPhotos/product-seasonal-produce-basket.png",
+        image: "Total images/Seasonal.png",
         price: "$25.00"
     }
 ];
