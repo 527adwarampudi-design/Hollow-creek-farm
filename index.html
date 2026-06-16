@@ -64,10 +64,9 @@
     <!-- Dark Overlay -->
     <div class="hero-overlay"></div>
 
-    <!-- Hero Content -->
-    <div class="container py-5 mt-5 hero-content">
+   <div class="container py-5 mt-5 hero-content">
         <div class="row">
-            <div class="col-lg-7 col-md-9 bg-dark bg-opacity-50 p-4 p-md-5 rounded">
+            <div class="col-lg-7 col-md-9 p-4 p-md-5">
                 <h1 class="text-white display-4 fw-bold mb-3">
                     Hollow Creek Farm
                 </h1>
@@ -76,7 +75,7 @@
                     "Local Roots, Lasting Memories"
                 </p>
 
-                <p class="lead mb-4">
+                <p class="lead text-white mb-4">
                     A family-owned farm and agritainment destination welcoming visitors to slow down and explore the beauty of agriculture since 1962.
                 </p>
 
@@ -180,27 +179,69 @@
         </section>
 
         <section id="store" class="bg-cream py-5">
-            <div class="container py-3">
-                <div class="text-center mb-5">
-                    <h2>The Hollow Creek Farm Store</h2>
-                    <p class="lead text-muted mx-auto" style="max-width: 750px;">Located inside our restored 1890s barn, the Hollow Creek Farm Store is open year-round with fresh eggs, seasonal produce, raw honey, jams, baked goods, local artisan goods, and Hollow Creek Farm merchandise.</p>
-                </div>
-                <div class="text-center mb-5">
-    <img src="Total images/Store.png" class="img-fluid rounded shadow-sm" alt="Visit the Hollow Creek Farm Store">
-</div>
-                
-                <div class="row justify-content-center mb-5">
-                    <div class="col-md-6 col-lg-5">
-                        <div class="input-group shadow-sm">
-                            <span class="input-group-text bg-white border-end-0 text-muted">🔍</span>
-                            <input type="text" id="storeSearchField" class="form-control border-start-0 ps-1 py-2" placeholder="Search farm products (e.g., Honey, Cider, Pie)...">
-                        </div>
-                    </div>
-                </div>
+    <div class="container py-3">
+        <div class="text-center mb-5">
+            <h2>The Hollow Creek Farm Store</h2>
+            <p class="lead text-muted mx-auto" style="max-width: 750px;">
+                Located inside our restored 1890s barn, the Hollow Creek Farm Store is open year-round with fresh eggs, seasonal produce, raw honey, jams, baked goods, local artisan goods, and Hollow Creek Farm merchandise.
+            </p>
+        </div>
+        
+        <div class="text-center mb-5">
+            <img src="Total images/Store.png" class="img-fluid rounded shadow-sm" alt="Visit the Hollow Creek Farm Store">
+        </div>
 
-                <div id="products-container-target" class="row g-4"></div>
-            </div>
-        </section>
+        <div class="text-center mt-4">
+            <a href="store.html" class="btn btn-primary-custom btn-lg px-5 py-3 shadow-sm">
+                 Browse Our Full Catalog
+            </a>
+        </div>
+    </div>
+</section>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="storeDirectionsOffcanvas" aria-labelledby="storeDirectionsOffcanvasLabel" style="border-left: 3px solid var(--color-forest);">
+  <div class="offcanvas-header text-white" style="background-color: var(--color-forest);">
+    <h5 class="offcanvas-title fw-bold" id="storeDirectionsOffcanvasLabel"> Finding the Farm Store</h5>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body d-flex flex-column justify-content-between" style="background-color: var(--color-cream);">
+    <div>
+      <p class="lead fw-bold text-dark mb-3">Visiting the Barn Store</p>
+      <p class="text-secondary small mb-4">
+        Our physical shelves are filled with fresh goods. Here is how to easily locate the store building once you arrive at the farm:
+      </p>
+      
+      <div class="d-flex mb-3">
+        <div class="me-3"><span class="badge bg-success rounded-circle p-2" style="background-color: var(--color-forest) !important;">1</span></div>
+        <div>
+          <h6 class="fw-bold mb-0 text-dark">Main Entrance</h6>
+          <p class="small text-muted">Drive through our main wooden farm gates right off the main road entrance.</p>
+        </div>
+      </div>
+      
+      <div class="d-flex mb-3">
+        <div class="me-3"><span class="badge bg-success rounded-circle p-2" style="background-color: var(--color-forest) !important;">2</span></div>
+        <div>
+          <h6 class="fw-bold mb-0 text-dark">The Historic 1890s Barn</h6>
+          <p class="small text-muted">Follow the main gravel driveway past our active sunflower fields. The farm store is located straight ahead inside the beautifully restored red barn.</p>
+        </div>
+      </div>
+
+      <div class="d-flex mb-4">
+        <div class="me-3"><span class="badge bg-success rounded-circle p-2" style="background-color: var(--color-forest) !important;">3</span></div>
+        <div>
+          <h6 class="fw-bold mb-0 text-dark">Check Online Stock First?</h6>
+          <p class="small text-muted">Want to see what's on our shelves before walking inside? Click the catalog button below to browse our live digital product inventory right now!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-top pt-3">
+      <a href="store.html" class="btn btn-primary-custom w-100 py-2 text-center">
+         Go to Online Catalog 
+      </a>
+    </div>
+  </div>
+</div>
 
         <section id="about" class="bg-parchment py-5">
             <div class="container py-3">

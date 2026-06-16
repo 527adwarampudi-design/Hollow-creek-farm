@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Farm Store | Hollow Creek Farm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-cream">
+
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top px-3 py-2">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html#home">
+                    <img src="Total images/logo.png" alt="Hollow Creek Farm logo" height="55">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hcfNavigationMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="hcfNavigationMenu">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                        <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#seasons">Seasons</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#events">Activities</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="store.html">Farm Store</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">Our Story</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#contact">Visit</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main style="margin-top: 120px; min-height: 80vh;">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h1 class="display-5 fw-bold mb-3">Fresh From Our Farm To Your Table</h1>
+                <p class="text-muted italic-tagline fs-5">Search or browse our current catalog availability below</p>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-6 col-lg-5">
+                    <div class="input-group shadow-sm">
+                        <span class="input-group-text bg-white border-end-0 text-muted"> </span>
+                        <input type="text" id="storeSearchField" class="form-control border-start-0 ps-1 py-2" placeholder="Search farm products (e.g., Honey, Cider, Pie)...">
+                    </div>
+                </div>
+            </div>
+
+            <div id="products-container-target" class="row g-4"></div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white py-4 mt-auto">
+        <div class="container text-center">
+            <p class="mb-2"><strong>Hollow Creek Farm</strong> &bull; Local Roots, Lasting Memories</p>
+            <p class="small text-muted mb-0">&copy; 2026 Hollow Creek Farm. All academic licensing criteria checked and verified.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

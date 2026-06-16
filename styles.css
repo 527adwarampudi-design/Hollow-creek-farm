@@ -136,39 +136,45 @@ p  { font-size: 1rem; }
 }
 
 /* ========================================
-   PRIMARY BUTTON
-   Main call-to-action button style.
-======================================== */
+   PRIMARY BUTTON (Deep Forest Green)
+   ======================================== */
 .btn-primary-custom {
-    background-color: var(--color-forest);
-    color: var(--color-cream);
-    font-weight: 700;
-    border: none;
-    padding: 10px 24px;
-    transition: all var(--transition-speed) ease;
+  background-color: var(--color-forest) !important;
+  color: var(--color-cream) !important;
+  font-weight: 700;
+  border: 2px solid var(--color-forest);
+  padding: 12px 28px;
+  border-radius: 4px;
+  transition: all var(--transition-speed) ease;
 }
 
 .btn-primary-custom:hover {
-    background-color: var(--color-meadow);
-    transform: translateY(-1px);
+  /* When hovering over dark green, it smoothly transitions to your brand red */
+  background-color: var(--color-barn-red) !important;
+  border-color: var(--color-barn-red);
+  color: var(--color-cream) !important;
+  transform: translateY(-1px);
 }
 
 /* ========================================
-   SECONDARY BUTTON
-   Alternative button style used for
-   additional actions.
-======================================== */
+   SECONDARY BUTTON (Solid Soft Sage Green)
+   ======================================== */
 .btn-secondary-custom {
-    background-color: var(--color-barn-red);
-    color: var(--color-cream);
-    font-weight: 700;
-    border: none;
-    padding: 10px 24px;
-    transition: all var(--transition-speed) ease;
+  background-color: var(--color-sage) !important; /* Solid Sage Green from your brand kit */
+  color: var(--color-forest) !important;         /* Dark Forest Green text so it is highly visible */
+  font-weight: 700;
+  border: 2px solid var(--color-sage) !important;
+  padding: 12px 28px;
+  border-radius: 4px;
+  transition: all var(--transition-speed) ease;
 }
 
 .btn-secondary-custom:hover {
-    background-color: var(--color-earth);
+  /* When hovering over sage green, it flips to Dark Green with Cream text */
+  background-color: var(--color-forest) !important;
+  border-color: var(--color-forest);
+  color: var(--color-cream) !important;
+  transform: translateY(-1px);
 }
 
 /* ========================================
@@ -242,7 +248,110 @@ p  { font-size: 1rem; }
     z-index: 3;
 }
 
-/* Applies a blur effect behind the hero text box */
-.hero-content .bg-dark {
-    backdrop-filter: blur(4px);
+
+/* ========================================
+   UNIFORM ACTIVITES SYSTEM
+   ======================================== */
+
+/* 1. Forces every card image to have an identical height and crop cleanly */
+#events-container-target .card-img-top {
+  height: 240px !important;    /* Keeps a balanced height for your beautiful images */
+  width: 100% !important;
+  object-fit: cover !important; /* Crops the photos perfectly so they never stretch or squish */
+  object-position: center !important;
+}
+
+/* 2. Standardizes the card alignment using Flexbox */
+#events-container-target .farm-card {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;     /* Forces all cards in the same row to match the tallest one */
+}
+
+/* 3. Pushes the Schedule Window element cleanly down to the absolute bottom of every card */
+#events-container-target .card-body {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  flex-grow: 1 !important;
+}
+   
+
+
+
+/* ========================================
+   STANDALONE SHOP CATALOG CARDS
+   ======================================== */
+
+/* 1. Base card styling matching country-chic brand standards */
+#products-container-target .card {
+  background-color: var(--color-cream) !important; /* Soft premium background */
+  border: 1px solid rgba(31, 74, 46, 0.15) !important; /* Very soft forest green border outline */
+  border-radius: 6px !important;
+  overflow: hidden;
+  transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+/* 2. Interactive lift & glow animation when a visitor hovers over a product */
+#products-container-target .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(31, 74, 46, 0.12) !important; /* Soft forest green shadow aura */
+  border-color: var(--color-forest) !important; /* Border turns solid brand green on hover */
+}
+
+/* 3. The background box containing the product illustration image */
+#products-container-target .bg-light {
+  background-color: #FFFFFF !important; /* Crisp white background tile for the product item */
+  border-bottom: 1px solid rgba(31, 74, 46, 0.1) !important;
+  padding: 1.5rem !important;
+}
+
+/* 4. Category Badges (e.g., Dairy, Pantry, Baked Goods) */
+#products-container-target .badge.bg-secondary-subtle {
+  background-color: rgba(123, 161, 122, 0.15) !important; /* Subtle tint of your brand Sage green */
+  color: var(--color-forest) !important; /* Rich green text */
+  border: 1px solid rgba(123, 161, 122, 0.3) !important;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* 5. Highlight Display Note pills (e.g., "From farm hives", "Made in-house") */
+#products-container-target .text-danger-emphasis.bg-danger-subtle {
+  background-color: rgba(140, 47, 39, 0.1) !important; /* Transparent tint of your Rich Barn Red */
+  color: var(--color-barn-red) !important; /* Crisp red flag text */
+  border: 1px solid rgba(140, 47, 39, 0.2);
+}
+
+/* 6. Product Item Title Headers */
+#products-container-target .card-title {
+  color: var(--color-forest) !important; /* Titles stand out in primary brand green */
+  font-family: var(--font-body);
+}
+
+/* 7. Bottom layout accent divider lines */
+#products-container-target .border-top {
+  border-top: 1px dashed rgba(31, 74, 46, 0.2) !important; /* Vintage country-style dashed rule separator */
+}
+
+/* 8. Price Numbers display */
+#products-container-target .text-success {
+  color: var(--color-barn-red) !important; /* Switched price color to your Barn Red so it pops beautifully */
+}
+
+
+/* Image hover wrapper adjustments */
+.store-img-link {
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+
+/* Smooth scaling transitions */
+.interaction-prompt-img {
+  transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+.interaction-prompt-img:hover {
+  transform: scale(1.02); /* Multiplies size slightly when mouse hangs over */
+  box-shadow: 0 1rem 3rem rgba(31, 74, 46, 0.25) !important; /* Casts a nice brand forest green shadow drop */
 }

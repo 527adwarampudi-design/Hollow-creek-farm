@@ -186,7 +186,7 @@ function renderEvents(eventsToDisplay) {
                             <p class="card-text small text-secondary">${event.description}</p>
                         </div>
                         <div class="border-top pt-2 mt-3">
-                            <small class="text-muted fw-bold d-block">🗓️ Schedule Window:</small>
+                            <small class="text-muted fw-bold d-block"> Schedule Window:</small>
                             <small class="text-dark-emphasis">${event.dates}</small>
                         </div>
                     </div>
