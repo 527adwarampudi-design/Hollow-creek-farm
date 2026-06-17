@@ -7,6 +7,7 @@ const farmEvents = [
         season: "spring",
         description: "Walk the rows and cut your own bouquet.",
         image: "Total images/sunflowerupick.jpg",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         dates: "Mid-May through June, late July bloom"
     },
     {
@@ -14,6 +15,7 @@ const farmEvents = [
         season: "spring",
         description: "Pick fresh strawberries during U-Pick weekends.",
         image: "Total images/strawberryimagepicking.jpg",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         dates: "April through June weekends"
     },
     {
@@ -21,6 +23,7 @@ const farmEvents = [
         season: "summer",
         description: "Visit the berry fields and pick fresh blueberries.",
         image: "Total images/blueberrypickingimage.jpg",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         dates: "July through early August"
     },
     {
@@ -28,6 +31,7 @@ const farmEvents = [
         season: "spring",
         description: "Meet chicks, ducklings, and baby goats in the barn.",
         image: "Total images/babyanimalvisit.png",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         dates: "April through June"
     },
     {
@@ -35,6 +39,7 @@ const farmEvents = [
         season: "fall",
         description: "5-acre maze with a new design each year.",
         image: "Total images/cornmaze.png",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         dates: "Labor Day through November"
     },
     {
@@ -42,6 +47,7 @@ const farmEvents = [
         season: "fall",
         description: "Choose from more than 20 pumpkin varieties.",
         image: "Total images/pumpkinpatch.png",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         dates: "September through November"
     },
     {
@@ -49,6 +55,7 @@ const farmEvents = [
         season: "fall",
         description: "Tractor-pulled wagon rides around the farm.",
         image: "Total images/hayrides.png",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         dates: "Weekends through October"
     },
     {
@@ -56,6 +63,7 @@ const farmEvents = [
         season: "fall",
         description: "Watch fresh cider made and take a jug home.",
         image: "Total images/applesqeueezse.png",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         dates: "September through November"
     },
     {
@@ -63,6 +71,7 @@ const farmEvents = [
         season: "fall",
         description: "Food vendors, live music, crafts, and farm fun.",
         image: "Total images/fallharvest.png",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         dates: "Last two weekends of October"
     },
     {
@@ -70,6 +79,7 @@ const farmEvents = [
         season: "summer",
         description: "Ticketed dinner in the covered pavilion.",
         image: "Total images/farmtotable.png",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         dates: "Select Saturday evenings"
     },
     {
@@ -77,6 +87,7 @@ const farmEvents = [
         season: "winter",
         description: "Artisan goods, farm gifts, wreaths, and more.",
         image: "Total images/Holiday market.png",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         dates: "First three weekends of December"
     },
     {
@@ -84,6 +95,7 @@ const farmEvents = [
         season: "winter",
         description: "Pre-cut and choose-and-cut trees available.",
         image: "Total images/christmastree.png",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         dates: "December"
     }
 ];
@@ -98,6 +110,7 @@ const farmProducts = [
         displayNote: "From the 200-hen flock",
         description: "Farm-fresh eggs available year-round.",
         image: "Total images/Eggs.png",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         price: "Market Price"
     },
     {
@@ -106,6 +119,7 @@ const farmProducts = [
         displayNote: "From farm hives",
         description: "Local raw honey from three on-site hives.",
         image: "Total images/rawhoney.png",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         price: "$8.00"
     },
     {
@@ -114,6 +128,7 @@ const farmProducts = [
         displayNote: "Made in-house",
         description: "Preserves made with seasonal berries.",
         image: "Total images/strawberry.png",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         price: "$6.50"
     },
     {
@@ -122,6 +137,7 @@ const farmProducts = [
         displayNote: "Made in-house",
         description: "Small-batch preserves from peak berry season.",
         image: "Total images/Blueberry.png",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         price: "$6.50"
     },
     {
@@ -130,6 +146,7 @@ const farmProducts = [
         displayNote: "Available in fall",
         description: "Fresh cider pressed on-site, sold by the jug.",
         image: "Total images/apple.png",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         price: "$7.00"
     },
     {
@@ -138,6 +155,7 @@ const farmProducts = [
         displayNote: "Weekends only",
         description: "Fresh-baked bread available on weekends.",
         image: "Total images/bread.png",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         price: "$5.50"
     },
     {
@@ -146,6 +164,7 @@ const farmProducts = [
         displayNote: "Weekends only",
         description: "Farm-made pie using seasonal apples.",
         image: "Total images/Applepie.png",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         price: "$14.00"
     },
     {
@@ -154,6 +173,7 @@ const farmProducts = [
         displayNote: "Changes by season",
         description: "A rotating selection from the farm fields.",
         image: "Total images/Seasonal.png",
+        // Image credit: Provided Hollow Creek Farm asset folder. Licensed for class use.
         price: "$25.00"
     }
 ];
